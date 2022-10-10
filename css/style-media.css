@@ -27,4 +27,12 @@
     .menu-container-hamburger{
         display: none;
     }
+
+    .col-1_4{
+        flex-basis: calc(100% / 4);
+    }
+
+    .col-3_4{
+        flex-basis: calc(100% / 4 * 3);
+    }
 }
