@@ -10,9 +10,10 @@
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
+    --secondary-color-light: #cdccf1;
     --accent-color-light: #fdc15f;
     --accent-color-dark: #333333;
-    --margin-bottom: 1rem;
+    --standard-space: 1rem;
 }
 
 /* Container */
@@ -20,9 +21,10 @@ section,
 footer{
     padding: 2rem 0;
 }
+
 .container{
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 var(--standard-space);
 }
 
 .row{
@@ -31,7 +33,7 @@ footer{
 
 .card-container{
     border-radius: 10px;
-    padding: 1rem;
+    padding: var(--standard-space);
 }
 
 /* Proprietà flex */
@@ -62,6 +64,11 @@ header .logo-container img{
     display: block;
 }
 
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
 .menu-container{
     display: none;
 }
@@ -85,5 +92,22 @@ header .logo-container img{
 
 /* Spaziature */
 .mg-btm{
-    margin-bottom: var(--margin-bottom);
+    margin-bottom: var(--standard-space);
+}
+
+/* Proprietà per link, liste e bottoni */
+li{
+    list-style: none;
+    padding: 0 var(--standard-space);
+}
+
+a{
+    display: inline-block;
+    padding: .5rem;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
