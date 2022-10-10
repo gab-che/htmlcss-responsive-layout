@@ -1,0 +1,49 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Properties */
+:root{
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+    --accent-color-light: #fdc15f;
+    --accent-color-dark: #333333;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* Proprietà flex */
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+/* Proprietà specifiche per header */
+header{
+    background-color: var(--primary-color);
+    /* Padding da togliere */
+    padding: 0 3rem;
+}
+
+header .logo-container{
+    max-width: 100px;
+}
+
+header .logo-container img{
+    width: 100%;
+}
+
+.menu-container{
+    display: none;
+}

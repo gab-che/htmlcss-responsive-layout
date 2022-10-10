@@ -1,0 +1,20 @@
+/* Tablet */
+@media screen and (min-width: 768px){
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 920px){
+    .container{
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+    .menu-container{
+        display: inline-flex;
+    }
+
+    .menu-container-hamburger{
+        display: none;
+    }
+}
