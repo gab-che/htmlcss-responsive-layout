@@ -5,14 +5,23 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* CSS Properties */
 :root{
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
     --secondary-color-light: #cdccf1;
-    --accent-color-light: #fdc15f;
+    --accent-color: #fdc15f;
     --accent-color-dark: #333333;
+    --accent-color-light: #5a6e7f;
     --standard-space: 1rem;
 }
 
@@ -31,8 +40,13 @@ footer{
     flex-wrap: wrap;
 }
 
+.col{
+    flex-basis: 100%;
+    padding: .5rem;
+}
+
 .card-container{
-    border-radius: 10px;
+    border-radius: 20px;
     padding: var(--standard-space);
 }
 
@@ -45,45 +59,25 @@ footer{
     justify-content: space-between;
 }
 
-.col{
-    flex-basis: 100%;
-    padding: .5rem;
-}
-
-/* Proprietà specifiche per header */
-header{
-    background-color: var(--primary-color);
-}
-
-header .logo-container{
-    max-width: 100px;
-}
-
-header .logo-container img{
-    width: 100%;
-    display: block;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-}
-
-.menu-container{
-    display: none;
+.align-items{
+    align-items: center;
 }
 
 /* Background */
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-primary-light{
+    background-color: var(--primary-color-light);
+}
+
 .bg-secondary{
     background-color: var(--secondary-color);
 }
 
 .bg-accent-dark{
     background-color: var(--accent-color-dark);
-}
-
-.bg-primary-light{
-    background-color: var(--primary-color-light);
 }
 
 .bg-white{
@@ -93,6 +87,10 @@ nav a{
 /* Spaziature */
 .mg-btm{
     margin-bottom: var(--standard-space);
+}
+
+.mg-x-neg{
+    margin: 0 -.5rem;
 }
 
 /* Proprietà per link, liste e bottoni */
@@ -108,6 +106,95 @@ a{
 
 button{
     border: none;
+    border-radius: 20px;
     background-color: transparent;
     cursor: pointer;
+    padding: .5rem;
+}
+
+.btn-white{
+    background-color: white;
+    color: var(--accent-color-dark);
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-circle{
+    border-radius: 50%;
+    color: var(--accent-color-dark);
+}
+
+/* Formattazione testo */
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-accent-dark{
+    color: var(--accent-color-dark);
+}
+
+.text-accent-light{
+    color: var(--accent-color-light);
+}
+
+.text-accent{
+    color: var(--accent-color);
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+
+/* Proprietà specifiche per header */
+header .logo-container{
+    max-width: 70px;
+}
+
+header .logo-container img{
+    width: 100%;
+    display: block;
+}
+
+nav{
+    padding: var(--standard-space) 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button{
+    align-self: center;
+}
+
+.menu-container{
+    display: none;
+}
+
+.menu-container-hamburger button{
+    font-size: 1.5rem;
 }
