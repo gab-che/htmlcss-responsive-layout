@@ -20,6 +20,10 @@
     padding: 0 1rem;
 }
 
+.row{
+    flex-wrap: wrap;
+}
+
 /* Proprietà flex */
 .flex{
     display: flex;
@@ -29,11 +33,26 @@
     justify-content: space-between;
 }
 
+/* Padding da togliere (solo per visualizzare) */
+[class^="col"]{
+    padding: 4rem 0;
+    background-color: var(--primary-color-light);
+}
+
+.col{
+    flex-basis: 100%;
+    border: 1px solid black;
+}
+
+.col-half{
+    flex-basis: calc(100% / 2);
+}
+
+
+
 /* Proprietà specifiche per header */
 header{
     background-color: var(--primary-color);
-    /* Padding da togliere */
-    padding: 0 3rem;
 }
 
 header .logo-container{
@@ -42,6 +61,7 @@ header .logo-container{
 
 header .logo-container img{
     width: 100%;
+    display: block;
 }
 
 .menu-container{
