@@ -12,6 +12,7 @@
     --secondary-color: #9792e4;
     --accent-color-light: #fdc15f;
     --accent-color-dark: #333333;
+    --margin-bottom: 1rem;
 }
 
 /* Container */
@@ -28,6 +29,11 @@ footer{
     flex-wrap: wrap;
 }
 
+.card-container{
+    border-radius: 10px;
+    padding: 1rem;
+}
+
 /* Proprietà flex */
 .flex{
     display: flex;
@@ -37,15 +43,9 @@ footer{
     justify-content: space-between;
 }
 
-/* Padding da togliere (solo per visualizzare) */
-[class^="col"]{
-    padding: 4rem 0;
-    background-color: var(--primary-color-light);
-}
-
 .col{
     flex-basis: 100%;
-    border: 1px solid black;
+    padding: .5rem;
 }
 
 /* Proprietà specifiche per header */
@@ -73,4 +73,17 @@ header .logo-container img{
 
 .bg-accent-dark{
     background-color: var(--accent-color-dark);
+}
+
+.bg-primary-light{
+    background-color: var(--primary-color-light);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/* Spaziature */
+.mg-btm{
+    margin-bottom: var(--margin-bottom);
 }
