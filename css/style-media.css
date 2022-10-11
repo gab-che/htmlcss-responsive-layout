@@ -15,6 +15,10 @@
     .col-2_3{
         flex-basis: calc(100% / 3 * 2);
     }
+
+    .img-col{
+        justify-content: flex-start;
+    }
 }
 
 /* Desktop */
@@ -46,5 +50,13 @@
 
     .col-lg-1_3{
         flex-basis: calc(100% / 3);
+    }
+
+    .col-lg-1_2{
+        flex-basis: calc(100% / 2);
+    }
+
+    .img-col{
+        justify-content: center;
     }
 }
