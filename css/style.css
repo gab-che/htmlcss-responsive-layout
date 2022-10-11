@@ -169,6 +169,10 @@ button{
     color: var(--secondary-color);
 }
 
+.text-secondary-light{
+    color: var(--secondary-color-light);
+}
+
 .text-accent-dark{
     color: var(--accent-color-dark);
 }
@@ -193,6 +197,31 @@ button{
     text-transform: uppercase;
 }
 
+.text-small{
+    font-size: .8em;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+    font-size: var(--standard-space);
+    padding-bottom: var(--standard-space);
+}
+
+h5{
+
+}
+
+p{
+    line-height: 1.5rem;
+    padding-bottom: var(--standard-space);
+}
 /* Proprietà specifiche per header */
 header .logo-container{
     max-width: 70px;
@@ -230,6 +259,7 @@ nav button{
 
 .card-header i{
     font-size: 3rem;
+    padding-bottom: var(--standard-space);
 }
 
 .img-round{
