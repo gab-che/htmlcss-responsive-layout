@@ -297,10 +297,17 @@ nav button{
 }
 
 .img-round{
-    max-width: 200px;
     border-radius: 50%;
     aspect-ratio: 1;
     object-fit: cover;
+}
+
+.img-round-small{
+    max-width: 60%;
+}
+
+.img-center{
+    justify-content: center;
 }
 
 .test-quote::before{
@@ -316,6 +323,8 @@ nav button{
 }
 
 .img-quote{
+    max-width: 60%;
+    padding-bottom: var(--standard-space);
     position: relative;
 }
 

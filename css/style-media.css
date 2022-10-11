@@ -28,6 +28,18 @@
         display: flex;
         justify-content: center;
     }
+
+    .img-round-small{
+        max-width: 80%;
+    }
+
+    .img-center{
+        justify-content: flex-start;
+    }
+
+    .img-quote{
+        max-width: 100%;
+    }
 }
 
 /* Desktop */
