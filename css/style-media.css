@@ -23,6 +23,11 @@
     .img-container-phone{
         max-width: 50%;
     }
+
+    .img-container-doodle1{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Desktop */
@@ -66,5 +71,9 @@
 
     .img-container-phone{
         max-width: 100%;
+    }
+
+    .img-container-doodle2{
+        max-width: 60%;
     }
 }

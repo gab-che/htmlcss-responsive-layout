@@ -227,10 +227,6 @@ h4{
     padding-bottom: var(--standard-space);
 }
 
-/* h5{
-    font-size: 1rem;
-} */
-
 p{
     line-height: 1.5rem;
     padding-bottom: var(--standard-space);
@@ -270,6 +266,20 @@ nav button{
 .img-container-phone{
     max-width: 70%;
     transform: translateY(1.5rem);
+}
+
+.col-short{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.img-container-doodle1{
+    padding-bottom: 5rem;
+}
+
+.img-container-doodle2{
+    padding-bottom: var(--standard-space);
+    max-width: 85%;
 }
 
 .card-img{
