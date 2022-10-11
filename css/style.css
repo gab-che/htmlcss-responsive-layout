@@ -156,12 +156,17 @@ button{
 .text-center{
     text-align: center;
 }
+
 .text-white{
     color: white;
 }
 
 .text-primary{
     color: var(--primary-color);
+}
+
+.text-secondary{
+    color: var(--secondary-color);
 }
 
 .text-accent-dark{
@@ -225,4 +230,11 @@ nav button{
 
 .card-header i{
     font-size: 3rem;
+}
+
+.img-round{
+    max-width: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
