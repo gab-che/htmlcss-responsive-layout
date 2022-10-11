@@ -19,6 +19,10 @@
     .card-img{
         justify-content: flex-start;
     }
+
+    .img-container-phone{
+        max-width: 50%;
+    }
 }
 
 /* Desktop */
@@ -58,5 +62,9 @@
 
     .card-img{
         justify-content: center;
+    }
+
+    .img-container-phone{
+        max-width: 100%;
     }
 }

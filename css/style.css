@@ -152,6 +152,17 @@ button{
     transform: translate(-50%, -50%);
 }
 
+.btn-wide{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-big{
+    padding: var(--standard-space) 2.5rem;
+    border-radius: 30px;
+
+}
+
 /* Formattazione testo */
 .text-center{
     text-align: center;
@@ -202,11 +213,13 @@ button{
 }
 
 h2{
-
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 h3{
-
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
 }
 
 h4{
@@ -214,14 +227,15 @@ h4{
     padding-bottom: var(--standard-space);
 }
 
-h5{
-
-}
+/* h5{
+    font-size: 1rem;
+} */
 
 p{
     line-height: 1.5rem;
     padding-bottom: var(--standard-space);
 }
+
 /* Proprietà specifiche per header */
 header .logo-container{
     max-width: 70px;
@@ -250,7 +264,12 @@ nav button{
 
 /* Proprietà specifiche per sezioni centrali */
 .img-container{
-    max-width: 60%;
+    display: inline-block;
+}
+
+.img-container-phone{
+    max-width: 70%;
+    transform: translateY(1.5rem);
 }
 
 .card-img{
@@ -260,6 +279,11 @@ nav button{
 .card-header i{
     font-size: 3rem;
     padding-bottom: var(--standard-space);
+}
+
+.card-num{
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
 }
 
 .img-round{
@@ -293,3 +317,11 @@ nav button{
     font-size: 2rem;
 }
 
+h2.text-accent{
+    font-size: 4rem;
+}
+
+section:last-of-type a,
+footer a{
+    padding: 0;
+}
