@@ -48,6 +48,7 @@ footer{
 .card-container{
     border-radius: 20px;
     padding: var(--standard-space);
+    height: 100%;
 }
 
 /* Proprietà flex */
@@ -210,4 +211,8 @@ nav button{
 
 .card-img{
     justify-content: center;
+}
+
+.card-header i{
+    font-size: 3rem;
 }
