@@ -238,3 +238,15 @@ nav button{
     aspect-ratio: 1;
     object-fit: cover;
 }
+
+.test-quote::before{
+    content: '\f10d'' ';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.test-quote::after{
+    content: ' ''\f10e';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
