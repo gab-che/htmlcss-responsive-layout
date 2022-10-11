@@ -16,7 +16,7 @@
         flex-basis: calc(100% / 3 * 2);
     }
 
-    .img-col{
+    .card-img{
         justify-content: flex-start;
     }
 }
@@ -56,7 +56,7 @@
         flex-basis: calc(100% / 2);
     }
 
-    .img-col{
+    .card-img{
         justify-content: center;
     }
 }
