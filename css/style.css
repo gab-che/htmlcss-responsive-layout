@@ -250,3 +250,16 @@ nav button{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
 }
+
+.img-quote{
+    position: relative;
+}
+
+#quote-img{
+    color: var(--secondary-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+}
+
