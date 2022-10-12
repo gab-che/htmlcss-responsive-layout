@@ -98,6 +98,10 @@ footer{
     margin: 0 -.5rem;
 }
 
+.mg-auto{
+    margin: auto;
+}
+
 /* Proprietà per link, liste, bottoni e img */
 li{
     list-style: none;
